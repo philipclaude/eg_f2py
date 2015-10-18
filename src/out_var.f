@@ -1,0 +1,7 @@
+      MODULE OUT_VAR
+
+      IMPLICIT NONE
+
+      REAL :: M
+
+      END MODULE OUT_VAR

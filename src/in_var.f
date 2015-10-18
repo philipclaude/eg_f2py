@@ -1,0 +1,8 @@
+      MODULE IN_VAR
+
+      IMPLICIT NONE
+
+      REAL :: GAMM
+      REAL :: MTOL
+
+      END MODULE IN_VAR

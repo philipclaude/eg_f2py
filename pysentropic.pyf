@@ -1,0 +1,23 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module pysentropic ! in 
+    interface  ! in :pysentropic
+	module in_var
+		real::gamm
+		real::mtol
+	end module in_var
+	module out_var
+		real::m
+	end module
+        subroutine solvem(s,sonic) ! in :pysentropic:solvem.f
+            use out_var
+            use in_var
+            real :: s
+            integer :: sonic 
+        end subroutine solvem
+    end interface 
+end python module pysentropic
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
